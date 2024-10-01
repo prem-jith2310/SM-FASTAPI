@@ -29,7 +29,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Welcome prem"}
+    return {"message": "Welcome Prem! FastAPI is running successfully"}
 
 
 
